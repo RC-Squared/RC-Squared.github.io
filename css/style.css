@@ -72,14 +72,14 @@ section.module.parallax-4 {
   }
   section.module.parallax h1 {
     font-size: 96px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 120px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
 
 }
