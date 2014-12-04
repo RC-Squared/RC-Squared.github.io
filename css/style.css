@@ -53,6 +53,9 @@ section.module.parallax-1 {
 }
 section.module.parallax-2 {
   background-image: url("../img/3DPrinter2.gif");
+  position: relative;
+  top: 50%;
+
 }
 section.module.parallax-3 {
   background-image: url("../img/OurGoals.jpg");
@@ -80,7 +83,6 @@ section.module.parallax-4 {
 
 div.container h1{
   position: relative;
-  top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%)
@@ -88,7 +90,6 @@ div.container h1{
 
 div.container h3{
   position: relative;
-  top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, 0%)
