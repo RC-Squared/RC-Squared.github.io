@@ -34,7 +34,6 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 48px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -43,7 +42,6 @@ section.module.parallax h1 {
 
 section.module.parallax h3 {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 64px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -63,32 +61,35 @@ section.module.parallax-4 {
   background-image: url("../img/NegligibleVagueAnole.gif")
 }
 
-@media all and (min-width: 600px) {
+@media all{
+  section.module.parallax h1 {
+    font-size: 6vw;
+  }
+  section.module.parallax h3 {
+    font-size: 4.8vw;
+  }
   section.module h2 {
     font-size: 42px;
   }
   section.module p {
     font-size: 20px;
   }
-  section.module.parallax h1 {
-    font-size: 96px;
-    font-size: 8vw;
-  }
-  section.module.parallax h3 {
-    font-size: 96px;
-    font-size: 8vw;
-  }
-
-
 }
-@media all and (min-width: 960px) {
-  section.module.parallax h1 {
-    font-size: 120px;
-    font-size: 8vw;
-  }
-  section.module.parallax h3 {
-    font-size: 120px;
-    font-size: 8vw;
-  }
 
+
+
+div.container h1{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%)
+}
+
+div.container h3{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%)
 }
