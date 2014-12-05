@@ -53,15 +53,16 @@ section.module.parallax-1 {
 }
 section.module.parallax-2 {
   background-image: url("../img/3DPrinter2.gif");
-  position: relative;
-  top: 50%;
+  padding: 300px 0px;
 
 }
 section.module.parallax-3 {
   background-image: url("../img/OurGoals.jpg");
+  padding: 300px 0px;
 }
 section.module.parallax-4 {
-  background-image: url("../img/NegligibleVagueAnole.gif")
+  background-image: url("../img/NegligibleVagueAnole.gif");
+  padding: 300px 0px;
 }
 
 @media all{
@@ -85,7 +86,7 @@ div.container h1{
   position: relative;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, 0%)
+  transform: translate(-50%, -50%)
 }
 
 div.container h3{
